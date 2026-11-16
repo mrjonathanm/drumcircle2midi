@@ -1,0 +1,6 @@
+{
+  "name": "dc2m-core",
+  "version": "0.1.0",
+  "description": "drumcircle2midi portable core: onset, tempo tracking, MIDI clock, cue detection, song player",
+  "build": { "srcDir": "src", "includeDir": "include" }
+}

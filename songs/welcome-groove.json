@@ -1,0 +1,12 @@
+{
+  "name": "Welcome Groove",
+  "bpm": 96,
+  "max_drift": 0.2,
+  "parts": [
+    { "name": "intro",    "pattern": 0, "bars": 4, "beats_per_bar": 4, "advance": "auto", "repeats": 1 },
+    { "name": "groove A", "pattern": 1, "bars": 4, "beats_per_bar": 4, "advance": "cue" },
+    { "name": "break",    "pattern": 2, "bars": 2, "beats_per_bar": 4, "advance": "auto", "repeats": 1 },
+    { "name": "groove B", "pattern": 3, "bars": 4, "beats_per_bar": 4, "advance": "cue" },
+    { "name": "outro",    "pattern": 4, "bars": 4, "beats_per_bar": 4, "advance": "auto", "repeats": 1 }
+  ]
+}

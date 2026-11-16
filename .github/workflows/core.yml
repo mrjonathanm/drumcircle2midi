@@ -1,0 +1,8 @@
+name: core
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S core -B build && cmake --build build && ./build/test_core
